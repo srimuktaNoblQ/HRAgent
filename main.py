@@ -19,8 +19,6 @@ embed_model = OpenAIEmbedding(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-
-
 Settings.llm = llm
 Settings.embed_model = embed_model
 
